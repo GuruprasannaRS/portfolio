@@ -1,0 +1,672 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Guruprasanna — Portfolio</title>
+  <meta name="description" content="Guruprasanna — AI / MLOps Engineer. MLOps, LLMs, Computer Vision. Production-ready ML systems, model training and scalable deployments." />
+  <!-- favicon (replace with your file in /assets) -->
+  <link rel="icon" href="assets/favicon.ico" />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- skip link for keyboard users -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Header / Nav -->
+  <header class="topnav" role="banner">
+    <a class="brand" href="#hero" aria-label="Home">
+      <div class="logo" aria-hidden="true">GR</div>
+      <!-- <div>
+        <h1 class="brand-name">Guruprasanna</h1>
+        <div class="subtitle">AI / ML Engineer</div>
+      </div> -->
+    </a>
+
+    <nav class="navlinks" role="navigation" aria-label="Primary">
+      <a href="#hero" class="navlink active">Home</a>
+      <a href="#about" class="navlink">About</a>
+      <a href="#projects" class="navlink">Projects</a>
+      <a href="#experience" class="navlink">Experience</a>
+      <a href="#contact" class="navlink">Contact</a>
+    </nav>
+
+    <button class="hamburger" aria-label="Open menu" title="Menu">☰</button>
+  </header>
+
+  <!-- HERO -->
+  <main id="main">
+    <section id="hero" class="hero" aria-label="Hero">
+      <div class="container">
+        <div class="hero-card reveal">
+          <h2>Hi — I’m</h2>
+          <h1>Guruprasanna Rajukannan Suresh</h1>
+          <p class="tagline">
+            I build and deploy intelligent AI systems from training models and fine-tuning foundation AI to scalable, production-ready applications.
+          </p>
+
+          <div class="ctas">
+            <!-- download attribute so clicking saves the file -->
+            <a class="btn primary" href="assets/Guruprasanna_Rajukannan_Suresh_Resume.pdf" target="_blank" rel="noopener" download="Guruprasanna_Rajukannan_Suresh_Resume.pdf" aria-label="Download resume (PDF)">
+              View Resume
+            </a>
+            <a class="btn ghost" href="https://github.com/GuruprasannaRS" target="_blank" rel="noopener" aria-label="Open GitHub profile">GitHub</a>
+            <a class="btn ghost" href="https://www.linkedin.com/in/guruprasanna-rajukannan-suresh/" target="_blank" rel="noopener" aria-label="Open LinkedIn profile">LinkedIn</a>
+          </div>
+        </div>
+
+        <aside class="profile-card reveal" aria-label="Profile">
+          <!-- lazy loading + alt text for accessibility -->
+          <img src="assets/me.jpg" alt="Photo of Guruprasanna Rajukannan Suresh" class="avatar" loading="lazy" width="320" height="320" />
+          <div class="profile-info">
+            <p class="role">AI / ML Engineer</p>
+            <p class="location">Waterloo, Canada</p>
+            <div class="icons">
+              <a class="btn small ghost" href="mailto:grajukan@uwaterloo.ca" aria-label="Send email">Email</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <a class="scroll-down" href="#about" aria-label="Scroll to about">
+        <div>
+          <small>Scroll</small>
+          <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M12 5v14M5 12l7 7 7-7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </a>
+    </section>
+
+    <!-- Placeholder sections (we'll build these when you ask) -->
+    <section id="about" class="about" aria-label="About">
+        <div class="about-inner col">
+          <div class="about-left card">
+            <h2>Story About Me</h2>
+      
+            <p>
+            Since childhood, I’ve been fascinated by how the brain turns information into knowledge and action. 
+            That curiosity led me to study Electronics, where circuits felt like neurons, and later into automation engineering,
+             building data pipelines, dashboards, and predictive maintenance systems that helped machines anticipate failures.
+            </p>
+        
+            <p>
+            Wanting to go deeper into intelligence, I pursued my Master of Engineering at the University of Waterloo, focusing on Computational Intelligence, Deep Learning, NLP, Image Processing, and Statistical Modelling. This gave me the foundation to bridge research ideas with production-ready AI.
+            </p>
+        
+            <p>
+            Since then, I’ve worked across healthcare, accessibility, government, and automation from fracture detection models and speech systems to large-scale LLM deployments for social good. My passion lies in turning research prototypes into reliable, scalable AI systems, blending technical depth with pragmatic engineering. 
+            <a href="#projects" class="link-inline">Check my projects</a> or <a href="#contact" class="link-inline">get in touch</a>.
+            </p>
+      
+          </div>
+      
+          <aside class="about-right card" aria-label="Skills and quick facts">
+            <div class="stats-grid">
+              <div class="stat">
+                <div class="stat-num">4</div>
+                <div class="stat-label">Years of Exp</div>
+              </div>
+              <div class="stat">
+                <div class="stat-num">M.Eng</div>
+                <div class="stat-label">UWaterloo</div>
+              </div>
+              <div class="stat">
+                <div class="stat-num">Waterloo</div>
+                <div class="stat-label">Location</div>
+              </div>
+            </div>
+      
+            <h3 class="skills-heading">Core skills</h3>
+            <ul class="skill-chips">
+                <li>Python</li>
+                <li>SQL</li>
+                <li>C++</li>
+                <li>PyTorch</li>
+                <li>TensorFlow</li>
+                <li>Scikit-Learn</li>
+                <li>OpenCV</li>
+                <li>LLMs (Hugging Face, LangChain, LlamaIndex, OpenAI API)</li>
+                <li>LoRA / QLoRA</li>
+                <li>Optuna Optimization</li>
+                <li>NLP (SpaCy, NLTK)</li>
+                <li>RAG Systems</li>
+                <li>Docker</li>
+                <li>FastAPI</li>
+                <li>MLflow</li>
+                <li>Redis • Celery</li>
+                <li>AWS (SageMaker, ECS)</li>
+                <li>Azure AI</li>
+                <li>CI/CD Pipelines</li>
+                <li>Computer Vision</li>
+                <li>Data Analytics (NumPy, Pandas, Tableau, Matplotlib, Seaborn)</li>
+              </ul>
+              
+          </aside>
+        </div>
+      </section>
+      
+      
+
+      <section id="projects" class="projects-section" aria-label="Projects">
+        <div class="col">
+          <h2>Projects</h2>
+          <!-- <p class="projects-intro">Selected projects — click the repo link to view code. Each card includes a short summary and the primary skills used.</p> -->
+      
+          <div class="projects-grid">
+            <!-- Project 1 -->
+            <article class="project-card">
+              <div class="project-body">
+                <h3 class="project-title">Translational Natural Language Inference (NLI)</h3>
+                <p class="project-desc">Built a translation-based NLI pipeline using transformers, achieving strong multilingual inference results.
+                <ul class="project-skills">
+                  <li>Hugging Face Transformers</li>
+                  <li>PyTorch</li>
+                  <li>Seq2Seq Translation</li>
+                  <li>Multilingual NLP</li>
+                  <li>Model Evaluation</li>
+                </ul>
+              </div>
+              <div class="project-actions">
+                <a class="repo-link" href="https://github.com/GuruprasannaRS/Translational-NLI" target="_blank" rel="noopener">
+                  <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 .5C5.73.5.75 5.48.75 11.75c0 4.95 3.21 9.14 7.67 10.62.56.1.76-.24.76-.54 0-.27-.01-1.17-.01-2.12-3.12.68-3.78-1.5-3.78-1.5-.51-1.31-1.24-1.66-1.24-1.66-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15.99 1.69 2.6 1.2 3.24.92.1-.72.39-1.2.71-1.48-2.49-.28-5.11-1.25-5.11-5.56 0-1.23.44-2.24 1.16-3.04-.12-.28-.5-1.4.11-2.92 0 0 .95-.31 3.12 1.16a10.7 10.7 0 012.84-.39c.96 0 1.93.13 2.84.39 2.16-1.47 3.11-1.16 3.11-1.16.61 1.52.23 2.64.11 2.92.72.8 1.15 1.81 1.15 3.04 0 4.32-2.62 5.28-5.11 5.56.4.35.76 1.04.76 2.1 0 1.52-.01 2.74-.01 3.12 0 .3.2.64.77.53C19.04 20.88 22.25 16.69 22.25 11.75 22.25 5.48 17.27.5 12 .5z" fill="currentColor"/></svg>
+                  View code
+                </a>
+              </div>
+            </article>
+      
+            <!-- Project 2 -->
+            <article class="project-card">
+              <div class="project-body">
+                <h3 class="project-title">FashionVision: Multi-Architecture CNN Analysis</h3>
+                <p class="project-desc">Implemented and compared 10 CNN models on Fashion-MNIST, achieving 93.8% accuracy and extracting features for clustering and label discovery.pplicable.</p>
+                <ul class="project-skills">
+                  <li>PyTorch</li>
+                  <li>CNNs</li>
+                  <li>PCA, t-SNE, Isomap</li>
+                  <li>Clustering (DBSCAN, K-means)</li>
+
+                </ul>
+              </div>
+              <div class="project-actions">
+                <a class="repo-link" href="https://github.com/GuruprasannaRS/FashionVision-Multi-Architecture-CNN-Analysis" target="_blank" rel="noopener">
+                  <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 .5C5.73.5.75 5.48.75 11.75c0 4.95 3.21 9.14 7.67 10.62.56.1.76-.24.76-.54 0-.27-.01-1.17-.01-2.12-3.12.68-3.78-1.5-3.78-1.5-.51-1.31-1.24-1.66-1.24-1.66-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15.99 1.69 2.6 1.2 3.24.92.1-.72.39-1.2.71-1.48-2.49-.28-5.11-1.25-5.11-5.56 0-1.23.44-2.24 1.16-3.04-.12-.28-.5-1.4.11-2.92 0 0 .95-.31 3.12 1.16a10.7 10.7 0 012.84-.39c.96 0 1.93.13 2.84.39 2.16-1.47 3.11-1.16 3.11-1.16.61 1.52.23 2.64.11 2.92.72.8 1.15 1.81 1.15 3.04 0 4.32-2.62 5.28-5.11 5.56.4.35.76 1.04.76 2.1 0 1.52-.01 2.74-.01 3.12 0 .3.2.64.77.53C19.04 20.88 22.25 16.69 22.25 11.75 22.25 5.48 17.27.5 12 .5z" fill="currentColor"/></svg>
+                  View code
+                </a>
+              </div>
+            </article>
+      
+            <!-- Project 3 -->
+            <article class="project-card">
+              <div class="project-body">
+                <h3 class="project-title">2D to 3D Image Reconstruction</h3>
+                <p class="project-desc">Built a 3D reconstruction pipeline from 2D CT scans using feature detection and matching, achieving 90%+ accuracy in medical image analysis.
+                <ul class="project-skills">
+                  <li>OpenCV</li>
+                  <li>RANSAC Filtering</li>
+                  <li>3D Reconstruction (Point Clouds)</li>
+                  <li>Medical Image Processing</li>
+                </ul>
+              </div>
+              <div class="project-actions">
+                <a class="repo-link" href="https://github.com/GuruprasannaRS/2D-to-3D-Image-Reconstruction" target="_blank" rel="noopener">
+                  <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 .5C5.73.5.75 5.48.75 11.75c0 4.95 3.21 9.14 7.67 10.62.56.1.76-.24.76-.54 0-.27-.01-1.17-.01-2.12-3.12.68-3.78-1.5-3.78-1.5-.51-1.31-1.24-1.66-1.24-1.66-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15.99 1.69 2.6 1.2 3.24.92.1-.72.39-1.2.71-1.48-2.49-.28-5.11-1.25-5.11-5.56 0-1.23.44-2.24 1.16-3.04-.12-.28-.5-1.4.11-2.92 0 0 .95-.31 3.12 1.16a10.7 10.7 0 012.84-.39c.96 0 1.93.13 2.84.39 2.16-1.47 3.11-1.16 3.11-1.16.61 1.52.23 2.64.11 2.92.72.8 1.15 1.81 1.15 3.04 0 4.32-2.62 5.28-5.11 5.56.4.35.76 1.04.76 2.1 0 1.52-.01 2.74-.01 3.12 0 .3.2.64.77.53C19.04 20.88 22.25 16.69 22.25 11.75 22.25 5.48 17.27.5 12 .5z" fill="currentColor"/></svg>
+                  View code
+                </a>
+              </div>
+            </article>
+      
+            <!-- Project 4 -->
+            <article class="project-card">
+              <div class="project-body">
+                <h3 class="project-title">Image Denoising with Convex Optimization</h3>
+                <p class="project-desc">Implemented convex optimization techniques for image denoising, improving restoration quality across multiple noise models.</p>
+                <ul class="project-skills">
+                  <li>Convex Optimization</li>
+                  <li>Image Denoising</li>
+                  <li>Noise Models</li>
+                  <li>PSNR Evaluation</li>
+                </ul>
+              </div>
+              <div class="project-actions">
+                <a class="repo-link" href="https://github.com/GuruprasannaRS/Image-Denoising-with-Convex-Optimization" target="_blank" rel="noopener">
+                  <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 .5C5.73.5.75 5.48.75 11.75c0 4.95 3.21 9.14 7.67 10.62.56.1.76-.24.76-.54 0-.27-.01-1.17-.01-2.12-3.12.68-3.78-1.5-3.78-1.5-.51-1.31-1.24-1.66-1.24-1.66-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15.99 1.69 2.6 1.2 3.24.92.1-.72.39-1.2.71-1.48-2.49-.28-5.11-1.25-5.11-5.56 0-1.23.44-2.24 1.16-3.04-.12-.28-.5-1.4.11-2.92 0 0 .95-.31 3.12 1.16a10.7 10.7 0 012.84-.39c.96 0 1.93.13 2.84.39 2.16-1.47 3.11-1.16 3.11-1.16.61 1.52.23 2.64.11 2.92.72.8 1.15 1.81 1.15 3.04 0 4.32-2.62 5.28-5.11 5.56.4.35.76 1.04.76 2.1 0 1.52-.01 2.74-.01 3.12 0 .3.2.64.77.53C19.04 20.88 22.25 16.69 22.25 11.75 22.25 5.48 17.27.5 12 .5z" fill="currentColor"/></svg>
+                  View code
+                </a>
+              </div>
+            </article>
+      
+            <!-- Project 5 -->
+            <article class="project-card">
+              <div class="project-body">
+                <h3 class="project-title">NeuralNet Toolkit: CNN, RNN & NLP Implementations</h3>
+                <p class="project-desc">Built and compared CNN, RNN, and NLP models for image classification, time-series forecasting, and sentiment analysis.</p>
+                <ul class="project-skills">
+                  <li>PyTorch</li>
+                  <li>Time-Series Forecasting</li>
+                  <li>Sentiment Analysis</li>
+                  <!-- <li>Testing</li> -->
+                </ul>
+              </div>
+              <div class="project-actions">
+                <a class="repo-link" href="https://github.com/GuruprasannaRS/NeuralNet-Toolkit-CNN-RNN-NLP-Implementations" target="_blank" rel="noopener">
+                  <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 .5C5.73.5.75 5.48.75 11.75c0 4.95 3.21 9.14 7.67 10.62.56.1.76-.24.76-.54 0-.27-.01-1.17-.01-2.12-3.12.68-3.78-1.5-3.78-1.5-.51-1.31-1.24-1.66-1.24-1.66-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15.99 1.69 2.6 1.2 3.24.92.1-.72.39-1.2.71-1.48-2.49-.28-5.11-1.25-5.11-5.56 0-1.23.44-2.24 1.16-3.04-.12-.28-.5-1.4.11-2.92 0 0 .95-.31 3.12 1.16a10.7 10.7 0 012.84-.39c.96 0 1.93.13 2.84.39 2.16-1.47 3.11-1.16 3.11-1.16.61 1.52.23 2.64.11 2.92.72.8 1.15 1.81 1.15 3.04 0 4.32-2.62 5.28-5.11 5.56.4.35.76 1.04.76 2.1 0 1.52-.01 2.74-.01 3.12 0 .3.2.64.77.53C19.04 20.88 22.25 16.69 22.25 11.75 22.25 5.48 17.27.5 12 .5z" fill="currentColor"/></svg>
+                  View code
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-body">
+                <h3 class="project-title">Dimensionality Reduction for Classification Performance</h3>
+                <p class="project-desc">Applied PCA and LDA to improve model efficiency and evaluated trade-offs across multiple classifiers.</p>
+                <ul class="project-skills">
+                  <li>Dimensionality Reduction</li>
+                  <li>Cross-Validation</li>
+                  <li>Hyperparameter Tuning</li>
+                  <li>Gradient Boosting</li>
+                </ul>
+              </div>
+              <div class="project-actions">
+                <a class="repo-link" href="https://github.com/GuruprasannaRS/Dimensionality-Reduction-Impact-on-ML-Classification-Performance" target="_blank" rel="noopener">
+                  <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 .5C5.73.5.75 5.48.75 11.75c0 4.95 3.21 9.14 7.67 10.62.56.1.76-.24.76-.54 0-.27-.01-1.17-.01-2.12-3.12.68-3.78-1.5-3.78-1.5-.51-1.31-1.24-1.66-1.24-1.66-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15.99 1.69 2.6 1.2 3.24.92.1-.72.39-1.2.71-1.48-2.49-.28-5.11-1.25-5.11-5.56 0-1.23.44-2.24 1.16-3.04-.12-.28-.5-1.4.11-2.92 0 0 .95-.31 3.12 1.16a10.7 10.7 0 012.84-.39c.96 0 1.93.13 2.84.39 2.16-1.47 3.11-1.16 3.11-1.16.61 1.52.23 2.64.11 2.92.72.8 1.15 1.81 1.15 3.04 0 4.32-2.62 5.28-5.11 5.56.4.35.76 1.04.76 2.1 0 1.52-.01 2.74-.01 3.12 0 .3.2.64.77.53C19.04 20.88 22.25 16.69 22.25 11.75 22.25 5.48 17.27.5 12 .5z" fill="currentColor"/></svg>
+                  View code
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-body">
+                <h3 class="project-title">FasterRCNN Embed Extract</h3>
+                <p class="project-desc">Built an embedding extraction pipeline with Faster R-CNN, enabling custom classifiers, clustering, and similarity search on images.</p>
+                <ul class="project-skills">
+                  <li>Faster R-CNN</li>
+                  <li>Embedding Extraction</li>
+                  <li>Object Detection</li>
+                  <li>NumPy</li>
+                </ul>
+              </div>
+              <div class="project-actions">
+                <a class="repo-link" href="https://github.com/GuruprasannaRS/FasterRCNN-Embed-Extract" target="_blank" rel="noopener">
+                  <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 .5C5.73.5.75 5.48.75 11.75c0 4.95 3.21 9.14 7.67 10.62.56.1.76-.24.76-.54 0-.27-.01-1.17-.01-2.12-3.12.68-3.78-1.5-3.78-1.5-.51-1.31-1.24-1.66-1.24-1.66-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15.99 1.69 2.6 1.2 3.24.92.1-.72.39-1.2.71-1.48-2.49-.28-5.11-1.25-5.11-5.56 0-1.23.44-2.24 1.16-3.04-.12-.28-.5-1.4.11-2.92 0 0 .95-.31 3.12 1.16a10.7 10.7 0 012.84-.39c.96 0 1.93.13 2.84.39 2.16-1.47 3.11-1.16 3.11-1.16.61 1.52.23 2.64.11 2.92.72.8 1.15 1.81 1.15 3.04 0 4.32-2.62 5.28-5.11 5.56.4.35.76 1.04.76 2.1 0 1.52-.01 2.74-.01 3.12 0 .3.2.64.77.53C19.04 20.88 22.25 16.69 22.25 11.75 22.25 5.48 17.27.5 12 .5z" fill="currentColor"/></svg>
+                  View code
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-body">
+                <h3 class="project-title">KSOM: Kohonen Self-Organizing Map</h3>
+                <p class="project-desc">Implemented a Self-Organizing Map for RGB clustering, producing well-structured visualizations of color similarity.</p>
+                <ul class="project-skills">
+                  <li>Self-Organizing Maps</li>
+                  <li>Clustering</li>
+                  <li>Unsupervised Learning</li>
+                  <li>Learning Rate Scheduling</li>
+                </ul>
+              </div>
+              <div class="project-actions">
+                <a class="repo-link" href="https://github.com/GuruprasannaRS/Kohonen-Self-Organizing-Map" target="_blank" rel="noopener">
+                  <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 .5C5.73.5.75 5.48.75 11.75c0 4.95 3.21 9.14 7.67 10.62.56.1.76-.24.76-.54 0-.27-.01-1.17-.01-2.12-3.12.68-3.78-1.5-3.78-1.5-.51-1.31-1.24-1.66-1.24-1.66-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15.99 1.69 2.6 1.2 3.24.92.1-.72.39-1.2.71-1.48-2.49-.28-5.11-1.25-5.11-5.56 0-1.23.44-2.24 1.16-3.04-.12-.28-.5-1.4.11-2.92 0 0 .95-.31 3.12 1.16a10.7 10.7 0 012.84-.39c.96 0 1.93.13 2.84.39 2.16-1.47 3.11-1.16 3.11-1.16.61 1.52.23 2.64.11 2.92.72.8 1.15 1.81 1.15 3.04 0 4.32-2.62 5.28-5.11 5.56.4.35.76 1.04.76 2.1 0 1.52-.01 2.74-.01 3.12 0 .3.2.64.77.53C19.04 20.88 22.25 16.69 22.25 11.75 22.25 5.48 17.27.5 12 .5z" fill="currentColor"/></svg>
+                  View code
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-body">
+                <h3 class="project-title">Multilayer Perceptron (MLP) Implementation</h3>
+                <p class="project-desc">Built an MLP from scratch in Python/NumPy, achieving 89% accuracy on multi-class classification tasks.</p>
+                <ul class="project-skills">
+                  <li>Python</li>
+                  <li>Gradient Descent</li>
+                  <li>Backpropagation</li>
+                  <li>Neural Networks (MLP)</li>
+                </ul>
+              </div>
+              <div class="project-actions">
+                <a class="repo-link" href="https://github.com/GuruprasannaRS/Multilayer-Perceptron-MLP-From-Scratch" target="_blank" rel="noopener">
+                  <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 .5C5.73.5.75 5.48.75 11.75c0 4.95 3.21 9.14 7.67 10.62.56.1.76-.24.76-.54 0-.27-.01-1.17-.01-2.12-3.12.68-3.78-1.5-3.78-1.5-.51-1.31-1.24-1.66-1.24-1.66-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15.99 1.69 2.6 1.2 3.24.92.1-.72.39-1.2.71-1.48-2.49-.28-5.11-1.25-5.11-5.56 0-1.23.44-2.24 1.16-3.04-.12-.28-.5-1.4.11-2.92 0 0 .95-.31 3.12 1.16a10.7 10.7 0 012.84-.39c.96 0 1.93.13 2.84.39 2.16-1.47 3.11-1.16 3.11-1.16.61 1.52.23 2.64.11 2.92.72.8 1.15 1.81 1.15 3.04 0 4.32-2.62 5.28-5.11 5.56.4.35.76 1.04.76 2.1 0 1.52-.01 2.74-.01 3.12 0 .3.2.64.77.53C19.04 20.88 22.25 16.69 22.25 11.75 22.25 5.48 17.27.5 12 .5z" fill="currentColor"/></svg>
+                  View code
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-body">
+                <h3 class="project-title">Radial Basis Function Neural Network (RBF-NN)</h3>
+                <p class="project-desc">Implemented an RBF neural network with Gaussian kernels, achieving up to 99% accuracy on classification tasks.</p>
+                <ul class="project-skills">
+                  <li>RBF Networks</li>
+                  <li>Gaussian Kernels</li>
+                  <li>Clustering (K-Means)</li>
+                  <li>Stability Analysis</li>
+                </ul>
+              </div>
+              <div class="project-actions">
+                <a class="repo-link" href="https://github.com/GuruprasannaRS/Radial-Basis-Function-Neural-Network" target="_blank" rel="noopener">
+                  <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 .5C5.73.5.75 5.48.75 11.75c0 4.95 3.21 9.14 7.67 10.62.56.1.76-.24.76-.54 0-.27-.01-1.17-.01-2.12-3.12.68-3.78-1.5-3.78-1.5-.51-1.31-1.24-1.66-1.24-1.66-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15.99 1.69 2.6 1.2 3.24.92.1-.72.39-1.2.71-1.48-2.49-.28-5.11-1.25-5.11-5.56 0-1.23.44-2.24 1.16-3.04-.12-.28-.5-1.4.11-2.92 0 0 .95-.31 3.12 1.16a10.7 10.7 0 012.84-.39c.96 0 1.93.13 2.84.39 2.16-1.47 3.11-1.16 3.11-1.16.61 1.52.23 2.64.11 2.92.72.8 1.15 1.81 1.15 3.04 0 4.32-2.62 5.28-5.11 5.56.4.35.76 1.04.76 2.1 0 1.52-.01 2.74-.01 3.12 0 .3.2.64.77.53C19.04 20.88 22.25 16.69 22.25 11.75 22.25 5.48 17.27.5 12 .5z" fill="currentColor"/></svg>
+                  View code
+                </a>
+              </div>
+            </article>
+
+            
+      
+            <!-- Add more project cards below — duplicate the <article class="project-card"> block and change content -->
+          </div>
+        </div>
+      </section>
+      
+
+      <section id="experience" class="experience-section" aria-label="Experience">
+        <div class="col">
+          <h2>Experience</h2>
+          <!-- <p class="projects-intro">Selected roles &amp; projects — concise summaries, highlighted skills, and a few bullet points.</p> -->
+      
+          <div class="experience-list">
+            <!-- Experience item 1 -->
+            <article class="exp-card">
+              <div class="exp-logo" aria-hidden="true">
+                <!-- image + fallback span (fallback shown only if image fails) -->
+                <img src="assets/un.png" alt="UN-Habitat logo" loading="lazy"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                <span class="logo-fallback" aria-hidden="true">UN</span>
+              </div>
+      
+              <div class="exp-body">
+                <header class="exp-header">
+                  <h3 class="company">UN-Habitat - Quality of Life Initiative</h3>
+                  <div class="role">AI Software Engineer</div>
+                  <div class="exp-meta">Jul 2024 — Present · Remote / Toronto, ON</div>
+                </header>
+      
+                <p class="exp-summary">Developed an AI toolkit for the UN-Habitat Quality of Life Initiative, enabling knowledge retrieval and decision support by connecting LLMs with structured data and external tools. The system delivers faster insights and recommendations to support policy and decision-making.</p>
+      
+                <ul class="exp-skills">
+                  <li>LangChain</li>
+                  <li>LangGraph</li>
+                  <li>Multi-Agent Systems</li>
+                  <li>AWS</li>
+                  <li>Agentic RAG</li>
+                  <li>Redis-Celery</li>
+                  <li>FastAPI</li>
+                  <li>Docker</li>
+                </ul>
+      
+                <ul class="exp-bullets">
+                  <li>Enabled dynamic case routing by implementing a LangGraph agent with Llama-3.3-70B across law, case-study, and web search nodes</li>
+                  <li>Delivered <30s query times through a ReAct multi-agent system integrating semantic retrieval and SQL execution.</li>
+                  <li>Reduced processing 1h → 15m by deploying PGVector + MapReduce ingestion pipelines on AWS ECS with Redis-Celery.</li>
+                </ul>
+              </div>
+            </article>
+      
+            <!-- Experience item 2 -->
+            <article class="exp-card">
+              <div class="exp-logo" aria-hidden="true">
+                <img src="assets/hmai.png" alt="X-Care logo" loading="lazy"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                <span class="logo-fallback" aria-hidden="true">XC</span>
+              </div>
+      
+              <div class="exp-body">
+                <header class="exp-header">
+                  <h3 class="company">HolisticMindAI</h3>
+                  <div class="role">AI Developer</div>
+                  <div class="exp-meta">Apr 2024 — Jul 2025 · Remote / Kitchner, ON</div>
+                </header>
+      
+                <p class="exp-summary">Architected and developed the backend for a therapy support platform, integrating speech diarization, semantic search, and RAG pipelines to deliver scalable, AI-powered summaries.</p>
+      
+                <ul class="exp-skills">
+                  <li>WhisperX</li>
+                  <li>AWS Bedrock</li>
+                  <li>RAG with LlamaIndex</li>
+                  <li>FastAPI</li>
+                  <li>CI/CD</li>
+                  <li>Docker</li>
+                  <li>AWS</li>
+                </ul>
+      
+                <ul class="exp-bullets">
+                  <li>Improved speech clarity by implementing WhisperX + PyAnnote diarization, separating speakers with 1.5s accuracy.</li>
+                  <li>Enabled scalable backend delivery with FastAPI endpoints and AWS Bedrock Mistral-8x7B deployment.</li>
+                  <li>Boosted document search recall from 68% → 92% with a hybrid RAG pipeline using LlamaIndex + spaCy embeddings.</li>
+                </ul>
+              </div>
+            </article>
+      
+            <!-- Experience item 3 -->
+            <article class="exp-card">
+              <div class="exp-logo" aria-hidden="true">
+                <img src="assets/xcare.png" alt="HolisticMindAI logo" loading="lazy"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                <span class="logo-fallback" aria-hidden="true">HM</span>
+              </div>
+      
+              <div class="exp-body">
+                <header class="exp-header">
+                  <h3 class="company">X-Care</h3>
+                  <div class="role">Machine Learning Engineer</div>
+                  <div class="exp-meta">Sep 2023 – Dec 2024 · Remote / Waterloo, ON</div>
+                </header>
+      
+                <p class="exp-summary">Developed a fracture detection pipeline for medical imaging, combining deep learning models, optimized training, and automated deployment supporting faster and more reliable clinical decision-making.</p>
+      
+                <ul class="exp-skills">
+                  <li>PyTorch</li>
+                  <li>EfficientNet</li>
+                  <li>YOLOv8</li>
+                  <li>Optuna</li>
+                  <li>DagsHub</li>
+                  <li>MLflow</li>
+                </ul>
+      
+                <ul class="exp-bullets">
+                  <li>Achieved 94%+ accuracy by building a two-stage detection pipeline with EfficientNet (classification) and YOLOv8 (localization).</li>
+                  <li>Reduced training time by 60% through Optuna hyperparameter optimization in PyTorch.</li>
+                  <li>Automated versioning and deployment of 10+ model runs with MLflow + DagsHub pipelines.</li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- Experience item 3 -->
+            <article class="exp-card">
+              <div class="exp-logo" aria-hidden="true">
+                <img src="assets/swr.png" alt="HolisticMindAI logo" loading="lazy"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                <span class="logo-fallback" aria-hidden="true">HM</span>
+              </div>
+      
+              <div class="exp-body">
+                <header class="exp-header">
+                  <h3 class="company">Region of Waterloo (Smart Waterloo Region Innovation Lab)</h3>
+                  <div class="role">MLOps Engineer (Co-op)</div>
+                  <div class="exp-meta">Sep 2023 – Aug 2024 · Hybrid / Kitchner, ON</div>
+                </header>
+      
+                <p class="exp-summary">Built and deployed LLM-powered systems for school policy management, fine-tuning models and engineering automated pipelines delivering scalable, production-ready AI solutions for the public sector.</p>
+      
+                <ul class="exp-skills">
+                  <li>LoRA / QLoRA</li>
+                  <li>RAG</li>
+                  <li>Hugging Face</li>
+                  <li>CI/CD</li>
+                  <li>Containerization</li>
+                  <li>Docker</li>
+                  <li>Evaluation</li>
+                </ul>
+      
+                <ul class="exp-bullets">
+                  <li>Enabled lightweight inference by fine-tuning Mistral-7B with LoRA and deploying GGUF models on Hugging Face.</li>
+                  <li>Improved Q&A accuracy (BLEU 0.85) with a RAG-based policy management system deployed across 5+ school boards.</li>
+                  <li>Streamlined deployments by engineering a CI/CD pipeline with dynamic ports, auto-versioning, and containerization.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="exp-card">
+              <div class="exp-logo" aria-hidden="true">
+                <img src="assets/mva.png" alt="HolisticMindAI logo" loading="lazy"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                <span class="logo-fallback" aria-hidden="true">HM</span>
+              </div>
+      
+              <div class="exp-body">
+                <header class="exp-header">
+                  <h3 class="company">Multiversal Automation Private Limited</h3>
+                  <div class="role">Automation Engineer</div>
+                  <div class="exp-meta">Jan 2022 – Oct 2022 · On-site / Chennai, India</div>
+                </header>
+      
+                <p class="exp-summary">Engineered real-time data pipelines and predictive maintenance models across manufacturing stations, improving efficiency, extending tool life, and reducing rejects.</p>
+      
+                <ul class="exp-skills">
+                  <li>Data Pipelines</li>
+                  <li>XGBoost</li>
+                  <li>Predictive Maintenance</li>
+                  <li>Time-Series Modeling</li>
+                  <li>Industrial IoT</li>
+                  <li>Pick & Place Robot</li>
+                  <li>LabVIEW</li>
+                </ul>
+      
+                <ul class="exp-bullets">
+                  <li>Improved efficiency by building a real-time pipeline across 10 stations with multi-sensor traceability.</li>
+                  <li>Extended tool life by 25% using XGBoost on torque/load data for predictive maintenance.</li>
+                  <li>Reduced false rejects by 15% with a time-series anomaly detection model on press/flow/torque curves.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="exp-card">
+              <div class="exp-logo" aria-hidden="true">
+                <img src="assets/tios.png" alt="HolisticMindAI logo" loading="lazy"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                <span class="logo-fallback" aria-hidden="true">HM</span>
+              </div>
+      
+              <div class="exp-body">
+                <header class="exp-header">
+                  <h3 class="company">Tube Investments Optoelectronic Solutions</h3>
+                  <div class="role">Project Engineer</div>
+                  <div class="exp-meta">Feb 2020 – Dec 2021 · On-site / Srictiy, India</div>
+                </header>
+      
+                <p class="exp-summary">Designed ETL pipelines and real-time reporting systems for manufacturing data, enabling continuous monitoring, faster insights, and data-driven decision-making.</p>
+      
+                <ul class="exp-skills">
+                  <li>ETL Pipeline</li>
+                  <li>SQL</li>
+                  <li>Full-Stack Prototyping</li>
+                  <li>Data Visualization</li>
+                  <li>Tableau</li>
+                  <li>Automation</li>
+                  <li>Coating</li>
+                </ul>
+      
+                <ul class="exp-bullets">
+                  <li>Improved data visibility by designing ETL pipelines ingesting 50+ machine data sources via TCP/IP.</li>
+                  <li>Cut reporting time by 40% by prototyping a full-stack web app for 24/7 real-time visualization.</li>
+                  <li>Boosted decision-making by 25% by building Tableau dashboards from 200K+ data points into executive KPIs.</li>
+                </ul>
+              </div>
+            </article>
+      
+            <!-- Duplicate more blocks for additional experience -->
+          </div>
+        </div>
+      </section>
+      
+      
+
+      <section id="contact" class="contact-section" aria-label="Contact">
+        <div class="col contact-inner">
+          <!-- Left: contact card -->
+          <aside class="contact-card contact-left card" aria-label="Contact details">
+            <div class="contact-avatar">
+              <img src="assets/me2.jpg" alt="Photo of Guruprasanna" loading="lazy" />
+            </div>
+      
+            <div class="contact-info">
+              <h2>Get in touch</h2>
+              <p class="contact-blurb">
+                I enjoy collaborating on AI/ML projects and production ML systems. If you'd like to chat about a role, a project, or a collaboration - drop a message below or reach me directly.
+              </p>
+      
+              <div class="contact-buttons">
+                <a class="btn primary" href="mailto:grajukan@uwaterloo.ca" aria-label="Send email">Email</a>
+                <!-- <a class="btn ghost" href="https://github.com/GuruprasannaRS" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a> -->
+                <a class="btn ghost" href="https://www.linkedin.com/in/guruprasanna-rajukannan-suresh/" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+              </div>
+      
+              <div class="contact-meta">
+                <div><strong>Email</strong></div>
+                <div class="muted">grajukan@uwaterloo.ca</div>
+              </div>
+      
+              <div class="contact-meta" style="margin-top:10px">
+                <div><strong>Location</strong></div>
+                <div class="muted">Waterloo, Canada</div>
+              </div>
+      
+              <a class="download-resume" href="assets/Guruprasanna_Rajukannan_Suresh_Resume.pdf" target="_blank" rel="noopener" aria-label="Open resume">View resume</a>
+            </div>
+          </aside>
+      
+          <!-- Right: contact form -->
+          <div class="contact-card contact-right card" aria-label="Contact form">
+            <h2>Message me</h2>
+            <p class="muted" style="margin-top:6px">Short note — I'll reply immediately in hours.</p>
+      
+            <!-- Replace action URL if you prefer another form provider -->
+            <form class="contact-form" method="POST" action="https://formsubmit.co/grajukan@uwaterloo.ca">
+              <!-- optional: redirect after submit -->
+              <input type="hidden" name="_next" value="https://your-domain.github.io/#contact?sent=1">
+              <input type="hidden" name="_captcha" value="false">
+      
+              <label class="field">
+                <span class="label-text">Your name</span>
+                <input type="text" name="name" placeholder="Jane Doe" required>
+              </label>
+      
+              <label class="field">
+                <span class="label-text">Your email</span>
+                <input type="email" name="email" placeholder="you@example.com" required>
+              </label>
+      
+              <label class="field">
+                <span class="label-text">Subject</span>
+                <input type="text" name="subject" placeholder="Quick question" required>
+              </label>
+      
+              <label class="field">
+                <span class="label-text">Message</span>
+                <textarea name="message" rows="6" placeholder="Tell me a bit about the project..." required></textarea>
+              </label>
+      
+              <div class="form-actions">
+                <button type="submit" class="btn primary">Send message</button>
+                <button type="reset" class="btn ghost">Reset</button>
+              </div>
+      
+              <!-- <p class="small-muted" style="margin-top:10px">
+                Your message will be sent to my inbox. No spam — promise.
+              </p> -->
+            </form>
+          </div>
+        </div>
+      </section>
+      
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
